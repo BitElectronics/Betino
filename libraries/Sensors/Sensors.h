@@ -1,5 +1,5 @@
 /*
-Copyright (c) Simeon Simeonov
+Copyright (c) bitElectronics ltd.
  Author : Simeon Simeonov
  Name : QTR sensors library
  Ver: 1.0.0
