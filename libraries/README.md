@@ -1,2 +1,3 @@
 #Betino Libraries
-Copy ontents of this folder in yours libraries folder into sketchbook folder.
+Copy ontents of this folder into /sketchbook/libraries/
+
