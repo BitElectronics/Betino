@@ -29,7 +29,7 @@
 #define KD             15         // Диференциялен коефициент. Ускорява реакцията на робота при завой
 #define MAX_SPEED      100        // Скоростта в права посока
 #define ACQUIRE_SPEED  45         // Скорост за калибриране - роботът се движи наляво и надясно с малка скорост
-#define SLOW_SPEED     MAX_SPEED - MAX_SPEED/4  // stabilising after turn
+#define SLOW_SPEED     MAX_SPEED - MAX_SPEED/4  // За стабилизация след завой
 
 // Скоростите на двата мотора при завой - вътрешния мотор е смалката скорот, а външния с голяма, подходяща да завие без да поднесе
 // Two speed for turn - for making right turn radius
