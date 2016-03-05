@@ -1,1 +1,1 @@
-#Betino Sensors library
+#Sensors library
