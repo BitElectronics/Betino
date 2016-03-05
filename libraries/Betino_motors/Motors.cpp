@@ -106,6 +106,7 @@ Motor::Motor(int pwm_frequency, int motor_pwm_pin, int motor_dir_pin) {
  
  */
 void Motor::setFrequency(long whatFreq) {
+this->frequency = whatFreq;  
 #ifdef __TM4C1294NCPDT__
   this->periodPWM = F_CPU/this->frequency;
 #else
