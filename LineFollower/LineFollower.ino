@@ -26,7 +26,7 @@
 ///////////////////////////////////////////////////////////////////////////
 #define PWM_FREQ		50000
 #define KP             0.6        // Пропорционален коефициент - определя разликата на моторите при завой
-#define KD             15         // Диференциялен коефициент. Ускорява реакцията на робота при завой
+#define KD             10         // Диференциялен коефициент. Ускорява реакцията на робота при завой
 #define MAX_SPEED      100        // Скоростта в права посока
 #define ACQUIRE_SPEED  45         // Скорост за калибриране - роботът се движи наляво и надясно с малка скорост
 #define SLOW_SPEED     MAX_SPEED - MAX_SPEED/4  // За стабилизация след завой
@@ -38,8 +38,8 @@
 
 // Граници при които се смята, че роботът вече изпуска линията
 // Left or right position treshold
-#define TURN_ERROR_LEFT		300 - 195    
-#define TURN_ERROR_RIGHT	300 + 195
+#define TURN_ERROR_LEFT		300 - 190    
+#define TURN_ERROR_RIGHT	300 + 190
 
 /////////////////////////////////////////////////////////////////////////
 
@@ -106,7 +106,7 @@ void setup() {
   left_motor.speed(ACQUIRE_SPEED);		// forward
   right_motor.speed(-ACQUIRE_SPEED);		// backward
 
-  for (i=0; i<700; i++) {
+  for (i=0; i<600; i++) {
     callibrate();
     delay(1);
   }
@@ -114,7 +114,7 @@ void setup() {
   // --- turn left  ---
   left_motor.speed(-ACQUIRE_SPEED);
   right_motor.speed(ACQUIRE_SPEED);
-  for (i=0; i<1500; i++) {
+  for (i=0; i<1200; i++) {
     callibrate();
     delay(1);
   }
