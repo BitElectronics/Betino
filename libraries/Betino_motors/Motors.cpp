@@ -115,7 +115,7 @@ void Motor::setFrequency(long whatFreq) {
 
 /*
     Two way PWM speed control. If speed is >0 then motor runs forward.
-    Else if speed is < 0 then motor runs forward
+    Else if speed is < 0 then motor runs backward
  */
 void Motor::speed(signed int motor_speed) {
   if (motor_speed == 0)
