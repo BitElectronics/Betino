@@ -1,3 +1,7 @@
+/* Infrared car with Bluetooth RC Controler for Android
+ club Byala Robots , eng.Anton Anchev ,2015  
+ */
+
 #include "Energia.h"
 #include "pin_definitions.h"
 #include "NEC_IR.h"
