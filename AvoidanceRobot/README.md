@@ -1,1 +1,2 @@
-#avoidane robot with one ultrasonic sensor.
+#Avoidane robot 
+with one ultrasonic sensor.
