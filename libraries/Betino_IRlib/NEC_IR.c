@@ -100,7 +100,7 @@ void ir_pin_init(void) {
   //  Register  the port-level   interrupt  handler.  This  handler  is  the
   //  first  level interrupt   handler  for all  the pin  interrupts.
   //
-  GPIOIntRegister(IR_PORT, PortEIntHandler);		// PORT B
+  GPIOIntRegister(IR_PORT, PortEIntHandler);		// PORT E
 
   //
   //  Make pin rising edge triggered  interrupt.
