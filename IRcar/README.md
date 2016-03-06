@@ -1,2 +1,2 @@
 #InfraRed car
-Remote controled car with NEC infrared pult
+Remote controlled car with NEC infrared pult
