@@ -11,6 +11,7 @@ char moving = 0;
 // ========================== SETUP =============================
 void setup()
 {
+// Tiva TM4C123g микроконтролера има 4 UART комуникационни контролера
   Serial.begin(9600);                                           // серийна комуникация
   Serial4.begin(9600);                                          // Bluetooth комуникация
   pinMode(LEFT_MOTOR_PWM,OUTPUT);                               // motor speed
