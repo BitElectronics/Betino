@@ -1,4 +1,4 @@
-/* Infrared car with Bluetooth RC Controler for Android
+/*             Infrared car 
  club Byala Robots , eng.Anton Anchev ,2015  
  */
 
