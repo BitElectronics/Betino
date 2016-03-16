@@ -47,6 +47,7 @@ void loop()
   int tmp_value;
   int error;
   
+  digitalWrite(EMITERS_ENABLE, HIGH);  //OPTRON LEDS ON
   // put your main code here, to run repeatedly:
   while (digitalRead(PUSH2) == 1) {
     for (i=0; i<5; i++) {
