@@ -161,7 +161,6 @@ unsigned int read_position(void) {
   } 
   else {
     // calculate new position if only one sensor is online
-    if ( on_line < 3)
       last_pos = pos / sensors_sum;  // else retrn last valid position
   }
 
